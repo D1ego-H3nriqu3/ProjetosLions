@@ -14,8 +14,17 @@ let aluno = {
         }else{
             console.log("Situação: Aluno inativo!")
         }
+    },
+
+    maioridade: function(){
+        if(this.idade >= 18){
+            console.log("Maior de idade: Sim!")
+        }else{
+            console.log("Maior de idade: Não")
+        }
     }
 }
 
 aluno.exibirInformacoes()
 aluno.verificacaoAtivo()
+aluno.maioridade()
