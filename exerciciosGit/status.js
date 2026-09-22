@@ -1,6 +1,6 @@
 let pedido = {
     nome: "Rafael Lima",
-    valor: 250,
+    valor: 200,
     pago: true,
 
     exibirDados: function(){
@@ -13,8 +13,17 @@ let pedido = {
         }else{
             console.log("Status: aguardando pagamento")
         }
+    },
+
+    descontinhoShope: function(){
+        if(this.valor >= 200){
+            console.log("Elegível para desconto na próxima compra\n")
+        }else{
+            console.log("Não elegível para desconto\n")
+        }
     }
 }
 
 pedido.exibirDados()
 pedido.pagamentoVerificado()
+pedido.descontinhoShope()
