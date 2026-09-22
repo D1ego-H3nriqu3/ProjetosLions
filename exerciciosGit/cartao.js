@@ -1,4 +1,4 @@
-let nome = "Diego"
+let nome = "Vanessa"
 let idade = 15
 let cidade = "Ponta Grossa"
 let curso = "Desenvolvimento de Sistemas"
