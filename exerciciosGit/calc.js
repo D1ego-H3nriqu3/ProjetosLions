@@ -3,4 +3,10 @@ function soma(a,b){
     console.log(`A soma de ${a} + ${b} é igual a ${soma}`)
 }
 
+function subtracao(a,b){
+    let subtracao = a - b
+    console.log(`A subtração de ${a} - ${b} é igual a ${subtracao}`)
+}
+
 soma(10,5)
+subtracao(10,5)
