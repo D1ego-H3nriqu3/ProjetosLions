@@ -8,5 +8,11 @@ function subtracao(a,b){
     console.log(`A subtração de ${a} - ${b} é igual a ${subtracao}`)
 }
 
+function multiplicacao(a,b){
+    let multiplicacao = a * b
+    console.log(`A multiplicação de ${a} * ${b} é igual a ${multiplicacao}`)
+}
+
 soma(10,5)
 subtracao(10,5)
+multiplicacao(10,5)
