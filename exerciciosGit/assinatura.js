@@ -15,8 +15,17 @@ let assinatura = {
         }else{
             console.log("Classificação: cliente veterano")
         }
+    },
+
+    prioridadeSuporte: function(){
+        if(this.plano === "Premium"){
+            console.log("Prioridade no suporte: sim\n")
+        }else{
+            console.log("Prioridade no suporte: não\n")
+        }
     }
 }
 
 assinatura.exibirDados()
 assinatura.tipoCliente()
+assinatura.prioridadeSuporte()
